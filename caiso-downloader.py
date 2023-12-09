@@ -12,7 +12,7 @@ import json
 
 # Parser setup
 parser = argparse.ArgumentParser(prog='CAISO System Wide Demand and Supply Downloader',
-                                 description='Downloads demand and supply data by reource type at 15-minute intervals',
+                                 description='Downloads demand and supply data by reource type at 5-minute intervals',
                                  epilog='GNU Affero General Public License v3.0')
 
 ## Program argument validation
