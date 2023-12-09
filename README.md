@@ -7,7 +7,7 @@ This tool was designed to extract large time series from the [CAISO's Today's Ou
 - Supply (MW)
     - Solar, Wind, Geothermal, Biomass, Biogas, Small Hydro, Coal,   Nuclear, Natural Gas, Large Hydro, Batteries, Imports, Other
 
-This is a complete redesign of [](). I used network analysis to identify URLs to call recursively instead of using Selenium for element-based webscraping. This halved the code base and removed Google browser and driver dependencies. It is also scalable to other sources on the [Today's Outlook](https://www.caiso.com/TodaysOutlook/Pages/default.aspx) which I will be adding at a later date (specifically resource adequacey). Enjoy!
+This is a complete redesign of my [caiso-outlook-scraper](https://github.com/JesseKaczmarski/caiso-outlook-scraper). I used network analysis to identify URLs to call recursively instead of using Selenium for element-based webscraping. This halved the code base and removed Google browser and driver dependencies. It is also scalable to other sources on the [Today's Outlook](https://www.caiso.com/TodaysOutlook/Pages/default.aspx) which I will be adding at a later date (specifically resource adequacey). Enjoy!
 
 # Installation
 
