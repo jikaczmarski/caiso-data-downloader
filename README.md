@@ -26,7 +26,7 @@ This is a script and should be run in a virtual environment. The script download
 usage: 
     python caiso-downloader.py [-h] filename startdate enddate {all,demand,supply}
 
-Downloads demand and supply data by reource type at 15-minute intervals
+Downloads demand and supply data by reource type at 5-minute intervals
 
 positional arguments:
   filename             Output path with .csv extension (e.g. filename.csv)
