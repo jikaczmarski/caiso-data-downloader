@@ -1,6 +1,6 @@
 # Download System-wide CAISO Demand and Supply Data
 
-This tool was designed to extract large time series from the [CAISO's Today's Outlook](https://www.caiso.com/TodaysOutlook/Pages/default.aspx) web service. This tool can download the following data in 15-minute intervals:
+This tool was designed to extract large time series from the [CAISO's Today's Outlook](https://www.caiso.com/TodaysOutlook/Pages/default.aspx) web service. This tool can download the following data in 5-minute intervals:
 
 - Demand (MW)
     - Day ahead forecast, Hour ahead forecast, Current demand, Demand response (if available)
