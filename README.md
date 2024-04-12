@@ -49,6 +49,7 @@ Data source: all
  Sample begins: Jan 01, 2021
  Sample ends: Jan 05, 2021
  Sample length: 5 days ( 1440 observations )
+ Downloading...
 Duplicate time values found in the demand data
 See error log for removed observations details.
  First values kept.

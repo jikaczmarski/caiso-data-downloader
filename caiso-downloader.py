@@ -78,7 +78,8 @@ print(
     "Results location:", results_location, os.linesep,
     "Sample begins:", args.startdate.strftime("%b %d, %Y"), os.linesep,
     "Sample ends:", args.enddate.strftime("%b %d, %Y"), os.linesep,
-    "Sample length:", (input_delta.days + 1), "days (", (input_delta.days + 1)*288, "observations )"
+    "Sample length:", (input_delta.days + 1), "days (", (input_delta.days + 1)*288, "observations )", os.linesep,
+    "Downloading..."
 )
 
 # json object to easily add and remove working urls
