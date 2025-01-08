@@ -82,11 +82,11 @@ print(
     "Downloading..."
 )
 
-# json object to easily add and remove working urls
+# testing new URLs
 urls_json = """
 {
-    "demand": "https://www.caiso.com/outlook/SP/History/datetime/demand.csv",
-    "supply": "https://www.caiso.com/outlook/SP/History/datetime/fuelsource.csv"
+    "demand": "https://www.caiso.com/outlook/history/datetime/demand.csv",
+    "supply": "https://www.caiso.com/outlook/history/datetime/fuelsource.csv"
 }
 """
 
